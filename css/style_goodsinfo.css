@@ -1,0 +1,135 @@
+.biaoti {
+	width: 100%;
+	height:280px ;
+	padding: 155px 76.8px 0 5%;
+}
+.biaoti .bt-l {
+	margin: 0px 0 0 66.8px;
+	float: left;
+}
+.bt-l .s1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.bt-l .s2 {
+	font-size: 20px;
+}
+
+.goods {
+	margin: 0 7% 0 5%;
+	margin-bottom: 8%;
+	height: 442px;
+}
+.g-l {
+	float: left;
+	width: 685px;
+	height: 100%;
+	margin-left: 5%;
+}
+.g-r {
+	float: right;
+	width: 358px;
+	height: 100%;
+	margin-right: 5%;
+}
+.g-l .si {
+	float: left;
+	width: 103px;
+	height: 100%;
+}
+.g-l .bi {
+	float: right;
+	width: 513px;
+	height: 100%;
+}
+div[class^="sim"] {
+	margin-bottom:9.9% ;
+	height: 103px;
+}
+img[class^="sim"]{
+	width: 103px;
+	margin-bottom:10px;
+	height: 103px;
+	border: 2px white solid;
+}
+#xzborder {
+	position: absolute;
+	width: 103px;
+	height: 103px;
+	border: 2px black solid;
+}
+.g-l .xj {
+	position: relative;
+	top: -42px;
+	width: 99%;
+}
+
+.bi {
+	overflow: hidden;
+}
+.bi #img1 {
+	position: relative;
+	left: 0px;
+	height: 100%;
+	width: 2052px;
+	transition: all 0.3s ease 0s;
+	-webkit-user-drag: none;
+	
+}
+.bi .yj {
+	position: relative;
+	top: -70%;
+	left: 93%;
+	height: 106px;
+	width: 40px;
+	cursor: pointer;
+}
+.grs {
+	width: 100%;
+	height: 11.25rem;
+	border-bottom: 1px black solid;
+}
+.grs span {
+	font-size: 20px;
+	font-weight: 700;
+}
+.kb {
+	height: 15px;
+}
+.grsinfo {
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 21.2px;
+}
+.grxinfo {
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 16.4px;
+	margin-bottom: 10%;
+}
+.grxinfo span{
+	font-size: 12px;
+}
+.buy1 {
+	transition: 0.2s;
+	display: block;
+	background-color: black;
+	width: 100%;
+	height: 61px;
+	/* margin: 0 auto; */
+	border-radius: 50px;
+
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 63px;
+
+	text-decoration: none;
+}
+
+.buy1:hover {
+	background-color: rgb(100,100,100);
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,882 @@
+.search-k:focus {
+	border: none;
+	outline-style: none;
+}
+.biaoti {
+	width: 100%;
+	height:250px ;
+	padding: 155px 140px 0 0px;
+}
+.biaoti .bt-l {
+	margin: 15px 0 0 150px;
+	float: left;
+}
+.bt-l .s1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+.bt-l .s2 {
+	font-size: 36px;
+}
+.biaoti .bt-r {
+	float: right;
+	font-size: 24px;
+	margin: 70px 0;
+}
+
+.content img {
+	height: 100%;
+}
+.content {
+	width: 100%;
+	height: 1872px;
+	padding: 104px 118px 0 118px;
+}
+.c1 {
+	margin-bottom: 53px;
+	width: 100%;
+	height: 615px;
+	/* border: 1px black solid; */
+}
+.c1 .c11 {
+	float: left;
+	width: 436px;
+	height:614px;
+	/* border: 1px black solid; */
+}
+.c1 .c11 .c111{
+	margin-bottom: 53px;
+	width: 436px;
+	height:280px;
+	/* border: 1px black solid; */
+}
+.c1 .c11 .c112{
+	width: 436px;
+	height:280px;
+	/* border: 1px black solid; */
+}
+.c1 .c12 {
+	float: right;
+	width: 774px;
+	height:614px;
+	/* border: 1px black solid; */
+}
+.c2 {
+	margin-bottom: 53px;
+	width: 100%;
+	height: 734px;
+	/* border: 1px black solid; */
+}
+ .c21 {
+	 float: left;
+	 width: 627px ;
+	 height: 732px;
+	 /* border: 1px black solid; */
+	 margin-right: 51px ;
+ } 
+.c211 {
+	width: 100% ;
+	height: 487px;
+	/* border: 1px black solid; */
+	margin-bottom: 58px;
+}
+.c212 {
+	  width: 100% ;
+	  height: 188px;
+	  /* border: 1px black solid; */
+}
+	
+.c2121 {
+	float: left;
+	height: 100%;
+	width: 294px;
+	/* border: 1px black solid; */
+}
+.c2122 {
+	float: right;
+	height: 100%;
+	width: 280px;
+	/* border: 1px black solid; */
+}
+.c22 {
+	 float: right;
+	 width: 584px ;
+	 height: 732px;
+	 /* border: 1px black solid; */
+ } 
+ .c221 {
+	 width: 584px ;
+	 height: 178px;
+	 /* border: 1px black solid; */
+	 margin-bottom: 50px;
+ }
+.c2211 {
+	 float: left; 
+	 width: 273px;
+	 height: 100%;
+	 /* border: 1px black solid; */
+ }
+ .c2212 {
+ 	float: right;  
+ 	 width: 264px;
+ 	 height: 100%;
+ 	 /* border: 1px black solid; */
+  }
+  .c222 {
+  	 width: 100% ;
+  	 height: 504px;
+  	 /* border: 1px black solid; */
+  }
+.c3 {
+	width: 100%;
+	height: 312px;
+	/* border: 1px black solid; */
+}
+.c31 {
+	float: left;
+	width:486px;
+	height: 100%;
+	margin-right:46px ;
+	/* border: 1px black solid; */
+}
+.c32 {
+	float: left;
+	width: 220px;
+	 height: 100%;
+	 margin-right: 51px;
+	 /* border: 1px black solid; */
+}
+.c321 {
+	width: 100%;
+	height:135px ;
+	margin-bottom:40px ;
+	/* border: 1px black solid; */
+}
+.c322 {
+	width: 100%;
+	height: 135px;
+	/* border: 1px black solid; */
+}
+.c33 {
+	float: right; 
+	width: 475px;
+	height: 100% ;
+	/* border: 1px black solid; */
+}
+
+
+.nl {
+	float: left;
+	height: 100%;
+}
+.nl img {
+	height: 100%;
+}
+.nr {
+	float: right;
+	height: 100%;
+	width: 48%;
+	background-color: #D6D6D6;
+}
+.sh {
+	height: 35px;
+	width: 100%;
+	padding: 2%;
+	border-bottom: 2px #B3B3B3 solid;
+	text-align: center;
+	color: black;
+}
+.nr .sh a {
+	float: right;
+	margin-right: 5px;
+	font-size: 16px;
+	line-height: 12px;
+	font-weight: 700;
+}
+.yuan {
+	float: left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: black;
+}
+.sh .name {
+	float: left;
+	margin-top: 3px;
+	font-size: 12px;
+}
+.zhong {
+	padding: 10% 8% 18% 6%;
+	/* border: 1px black solid; */
+	font-size: 20px;
+	line-height: 24px;
+	color: #666666;
+	font-weight: 700;
+}
+.xia {
+	line-height: 18px;
+	padding-left: 6%;
+	margin-bottom: 5%;
+}
+.xia .pla{
+	display: block;
+	font-size: 12px;
+	color: black;
+	font-weight: 700;
+}
+.pl {
+	color: black;
+	font-size: 12px;
+	font-weight: 700;
+}
+.pa {
+	color: #666666;
+	font-size: 12px;
+}
+.bot {
+	padding-left: 6%;
+}
+.search-k {
+	width: 80%;
+	margin-bottom: 2%;
+	background-color: #D6D6D6;
+	color: #999999;
+	border: 0px;
+	font-size: 12px;
+}
+.but {
+	cursor: pointer;
+	background-color: transparent;
+	border: 0;
+	font-size: 12px;
+}
+.kongba {
+	margin-bottom: 3%;
+	height: 2px;
+	width: 95%;
+	background-color: #999999;
+}
+.place {
+	/* border-top: 2px white solid; */
+	font-size: 8px;
+	color: #999999;
+}
+.kb1 {
+	height: 300px;
+}
+.c4 {
+	margin-top: 61px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 136px ;
+	/* border: 1px black solid; */
+}
+.dg {
+	padding: 0% 0 0 21%;
+}
+.dg img {
+	width: 70%;
+}
+ .load {
+	 position: relative;
+	 margin-top: 2%;
+	font-size: 30px;
+	text-align: center;
+}
+.loaddh {
+	position: absolute;
+	z-index: 2;
+	top: -10px;
+	left: 695px;
+}
+.sp1 {
+	 animation-name: example1;
+	  animation-duration: 0.75s;
+	  animation-timing-function: cubic-bezier(.24,.26,.2,1);
+	  animation-delay: 0s;
+	  animation-iteration-count: infinite;
+}
+@keyframes example1 {
+  0%   {position:relative;top:0px;}
+  50%  {position:relative;top:10px;}
+  100% {position:relative;top:0px;}
+}
+.sp2 {
+	 animation-name: example2;
+	  animation-duration: 0.75s;
+	  animation-timing-function: cubic-bezier(.24,.26,.2,1);
+	  animation-delay: 1s;
+	  animation-iteration-count: infinite;
+}
+@keyframes example2 {
+  0%   {position:relative;top:0px;}
+  50%  {position:relative;top:10px;}
+  100% {position:relative;top:0px;}
+}
+.sp3 {
+	 animation-name: example3;
+	  animation-duration: 0.75s;
+	  animation-timing-function: cubic-bezier(.24,.26,.2,1);
+	  animation-delay: 2s;
+	  animation-iteration-count: infinite;
+}
+@keyframes example3 {
+  0%   {position:relative;top:0px;}
+  50%  {position:relative;top:10px;}
+  100% {position:relative;top:0px;}
+}
+//
+.zzc {
+	position: relative;
+	padding: 30px auto;
+	width: 226px;
+	height: 280px;
+}
+
+.zzc1 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc1 .ai1{
+	width: 70px;
+	margin:12% 33% 8% 33%;
+	transition: all 1s ease 0s;
+}
+.zzc1 .ai2{
+	width: 60px;
+	margin:8% 35%;
+	transition: all 1s ease 0s;
+}
+.zzc1 .ai3{
+	width: 43px;
+	margin:8% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc:hover .zzc1 {
+	display: block;
+}
+
+.ai1:hover {
+	width: 40%;
+}
+.ai2:hover {
+	width: 35%;
+}
+.ai3:hover {
+	width: 23%;
+}
+
+.zzc111 {
+	position: relative;
+	padding: 30px auto;
+	width: 226px;
+	height: 280px;
+	overflow: hidden;
+}
+.zzc111:hover .zzc1 {
+	display: block;
+}
+
+.zzc112 {
+	position: relative;
+	padding: 30px auto;
+	width: 226px;
+	height: 280px;
+	overflow: hidden;
+}
+.zzc112:hover .zzc1 {
+	display: block;
+}
+
+.zzc112 {
+	position: relative;
+	padding: 30px auto;
+	width: 226px;
+	height: 280px;
+	overflow: hidden;
+}
+.zzc112:hover .zzc1 {
+	display: block;
+}
+
+
+.zzc12 {
+	position: relative;
+	padding: 30px auto;
+	width: 410px;
+	height: 614px;
+	overflow: hidden;
+}
+.zzc_12 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_12 .ai1{
+	width: 70px;
+	margin:30% 33% 18% 35%;
+	transition: all 1s ease 0s;
+}
+.zzc_12 .ai2{
+	width: 60px;
+	margin:8% 35% -2% 36%;
+	transition: all 1s ease 0s;
+}
+.zzc_12 .ai3{
+	width: 43px;
+	margin:28% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc12:hover .zzc_12 {
+	display: block;
+}
+.zzc_12 .ai1:hover {
+	width: 40%;
+}
+.zzc_12 .ai2:hover {
+	width: 35%;
+}
+.zzc_12 .ai3:hover {
+	width: 23%;
+}
+
+
+.zzc211 {
+	position: relative;
+	padding: 30px auto;
+	width: 346px;
+	height: 488px;
+	overflow: hidden;
+}
+.zzc_211 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_211 .ai1{
+	width: 70px;
+	margin:20% 33% 18% 40%;
+	transition: all 1s ease 0s;
+}
+.zzc_211 .ai2{
+	width: 60px;
+	margin:8% 35% -2% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc_211 .ai3{
+	width: 43px;
+	margin:28% 43%;
+	transition: all 1s ease 0s;
+}
+.zzc211:hover .zzc_211 {
+	display: block;
+}
+.zzc_211 .ai1:hover {
+	width: 40%;
+}
+.zzc_211 .ai2:hover {
+	width: 35%;
+}
+.zzc_211 .ai3:hover {
+	width: 23%;
+}
+
+
+.zzc2121 {
+	position: relative;
+	padding: 30px auto;
+	width: 149px;
+	height: 189px;
+	overflow: hidden;
+}
+.zzc_2121 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_2121 .ai1{
+	width: 40px;
+	margin:15% 33% 15% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_2121 .ai2{
+	width: 35px;
+	margin:0% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_2121 .ai3{
+	width: 29px;
+	margin:23% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc2121:hover .zzc_2121 {
+	display: block;
+}
+.zzc_2121 .ai1:hover {
+	width: 35%;
+}
+.zzc_2121 .ai2:hover {
+	width: 30%;
+}
+.zzc_2121 .ai3:hover {
+	width: 25%;
+}
+
+
+.zzc2122 {
+	position: relative;
+	padding: 30px auto;
+	width: 135px;
+	height: 189px;
+	overflow: hidden;
+}
+.zzc_2122 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_2122 .ai1{
+	width: 40px;
+	margin:15% 33% 15% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_2122 .ai2{
+	width: 35px;
+	margin:0% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_2122 .ai3{
+	width: 29px;
+	margin:23% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc2122:hover .zzc_2122 {
+	display: block;
+}
+.zzc_2122 .ai1:hover {
+	width: 35%;
+}
+.zzc_2122 .ai2:hover {
+	width: 30%;
+}
+.zzc_2122 .ai3:hover {
+	width: 25%;
+}
+
+
+.zzc2211 {
+	position: relative;
+	padding: 30px auto;
+	width: 131px;
+	height: 175px;
+	overflow: hidden;
+}
+.zzc_2211 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_2211 .ai1{
+	width: 40px;
+	margin:15% 33% 15% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_2211 .ai2{
+	width: 35px;
+	margin:0% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_2211 .ai3{
+	width: 29px;
+	margin:23% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc2211:hover .zzc_2211 {
+	display: block;
+}
+.zzc_2211 .ai1:hover {
+	width: 35%;
+}
+.zzc_2211 .ai2:hover {
+	width: 30%;
+}
+.zzc_2211 .ai3:hover {
+	width: 25%;
+}
+
+
+
+.zzc2212 {
+	position: relative;
+	padding: 30px auto;
+	width: 116px;
+	height: 174px;
+	overflow: hidden;
+}
+.zzc_2212 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_2212 .ai1{
+	width: 40px;
+	margin:15% 33% 15% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_2212 .ai2{
+	width: 35px;
+	margin:0% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_2212 .ai3{
+	width: 29px;
+	margin:23% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc2212:hover .zzc_2212 {
+	display: block;
+}
+.zzc_2212 .ai1:hover {
+	width: 40%;
+}
+.zzc_2212 .ai2:hover {
+	width: 40%;
+}
+.zzc_2212 .ai3:hover {
+	width: 30%;
+}
+
+
+
+.zzc222 {
+	position: relative;
+	padding: 30px auto;
+	width: 305px;
+	height: 502px;
+	overflow: hidden;
+}
+.zzc_222 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_222 .ai1{
+	width: 60px;
+	margin:25% 33% 15% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_222 .ai2{
+	width: 55px;
+	margin:15% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_222 .ai3{
+	width: 40px;
+	margin:38% 41%;
+	transition: all 1s ease 0s;
+}
+.zzc222:hover .zzc_222 {
+	display: block;
+}
+.zzc_222 .ai1:hover {
+	width: 40%;
+}
+.zzc_222 .ai2:hover {
+	width: 40%;
+}
+.zzc_222 .ai3:hover {
+	width: 30%;
+}
+
+
+
+.zzc31 {
+	position: relative;
+	padding: 30px auto;
+	width: 249px;
+	height: 312px;
+	overflow: hidden;
+}
+.zzc_31 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_31 .ai1{
+	width: 60px;
+	margin:15% 33% 10% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_31 .ai2{
+	width: 55px;
+	margin:10% 35% -5% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc_31 .ai3{
+	width: 40px;
+	margin:25% 42%;
+	transition: all 1s ease 0s;
+}
+.zzc31:hover .zzc_31 {
+	display: block;
+}
+.zzc_31 .ai1:hover {
+	width: 30%;
+}
+.zzc_31 .ai2:hover {
+	width: 30%;
+}
+.zzc_31 .ai3:hover {
+	width: 20%;
+}
+
+
+
+.zzc321 {
+	position: relative;
+	padding: 30px auto;
+	width: 102px;
+	height: 136px;
+	overflow: hidden;
+}
+.zzc_321 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_321 .ai1{
+	width: 30px;
+	margin:15% 33% 5% 33%;
+	transition: all 1s ease 0s;
+}
+.zzc_321 .ai2{
+	width: 25px;
+	margin:7% 35% -5% 36%;
+	transition: all 1s ease 0s;
+}
+.zzc_321 .ai3{
+	width: 18px;
+	margin:23% 39%;
+	transition: all 1s ease 0s;
+}
+.zzc321:hover .zzc_321 {
+	display: block;
+}
+.zzc_321 .ai1:hover {
+	width: 35%;
+}
+.zzc_321 .ai2:hover {
+	width: 30%;
+}
+.zzc_321 .ai3:hover {
+	width: 20%;
+}
+
+
+
+
+.zzc322 {
+	position: relative;
+	padding: 30px auto;
+	width: 101px;
+	height: 135px;
+	overflow: hidden;
+}
+.zzc_322 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_322 .ai1{
+	width: 30px;
+	margin:15% 33% 5% 35%;
+	transition: all 1s ease 0s;
+}
+.zzc_322 .ai2{
+	width: 25px;
+	margin:9% 35% -5% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_322 .ai3{
+	width: 18px;
+	margin:25% 40%;
+	transition: all 1s ease 0s;
+}
+.zzc322:hover .zzc_322 {
+	display: block;
+}
+.zzc_322 .ai1:hover {
+	width: 35%;
+}
+.zzc_322 .ai2:hover {
+	width: 30%;
+}
+.zzc_322 .ai3:hover {
+	width: 20%;
+}
+
+.zzc33 {
+	position: relative;
+	padding: 30px auto;
+	width: 234px;
+	height: 312px;
+	overflow: hidden;
+}
+.zzc_33 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	transition: transform 1s cubic-bezier(0.075,0.82,0.165,1);
+}
+.zzc_33 .ai1{
+	width: 60px;
+	margin:15% 33% 10% 35%;
+	transition: all 1s ease 0s;
+}
+.zzc_33 .ai2{
+	width: 45px;
+	margin:10% 35% -3% 38%;
+	transition: all 1s ease 0s;
+}
+.zzc_33 .ai3{
+	width: 38px;
+	margin:25% 40%;
+	transition: all 1s ease 0s;
+}
+.zzc33:hover .zzc_33 {
+	display: block;
+}
+.zzc_33 .ai1:hover {
+	width: 35%;
+}
+.zzc_33 .ai2:hover {
+	width: 30%;
+}
+.zzc_33 .ai3:hover {
+	width: 20%;
+}

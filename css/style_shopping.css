@@ -1,0 +1,280 @@
+.title,
+.title2 {
+	width: 100%;
+	text-align: center;
+}
+
+.title2 {
+	margin-bottom: 62px;
+}
+
+
+.c1 {
+	margin: 0 80px;
+	height: 170px;
+}
+
+.c1t {
+	color: #606060;
+	font-size: 24px;
+	float: right;
+	width: 50%;
+	line-height: 52px;
+	margin-top: -15px;
+}
+
+.c2 {
+	background: url(../img/shopping/1.png) no-repeat;
+	background-size: cover;
+	height: 592px;
+	margin: 56px 80px 150px;
+	position: relative;
+}
+
+.c2 .c2t {
+	font-size: 60px;
+	color: black;
+	padding: 50px 74px;
+}
+
+.button2 {
+	transition: 0.2s;
+	position: absolute;
+	width: 285px;
+	padding: 34px 0;
+	border: solid 3px black;
+	font-size: 24px;
+	vertical-align: middle;
+	text-align: center;
+
+	right: 140px;
+	bottom: -52px;
+}
+
+.button2:hover {
+	cursor: pointer;
+	transform: scale(96%);
+}
+
+.button2:active {
+	transform: scale(100%);
+}
+
+
+.c3 {
+	margin: 56px 80px;
+}
+
+
+.c3 table,
+.c3 tr {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 50px 30px;
+}
+
+.c3 td {
+	position: relative;
+}
+
+.c3 tr {
+	text-align: left;
+}
+
+.c3 .product {
+	width: 33%;
+	height: 396px;
+}
+
+.c3 .product img {
+	transition: 0.2s;
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.c3 .product img:hover {
+	cursor: pointer;
+	transform: translateY(-8px);
+}
+
+.c3 .product .productname {
+	color: #606060;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+.c3 .hr {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 150px;
+	background-color: #808080;
+}
+
+.c4 {
+	height: 1130px;
+	margin: 56px 80px 150px;
+	position: relative;
+}
+
+.c4 .hr2 {
+	width: 980px;
+	height: 5px;
+	float: right;
+	background-color: black;
+}
+
+.c4 .bg {
+	position: relative;
+	top: -260px;
+}
+
+.c4 .block {
+	position: absolute;
+	background-color: #afafaf;
+	width: 990px;
+	height: 650px;
+	right: 140px;
+	top: 480px;
+
+	z-index: -1;
+}
+
+.c4 .d {
+	transition: 0.2s;
+	display: block;
+	position: absolute;
+}
+
+.c4 .d1 {
+	left: 120px;
+	top: 400px;
+}
+
+.c4 .d2 {
+	right: 40px;
+	top: 640px;
+}
+
+.c4 .d3 {
+	left: 180px;
+	top: 890px;
+}
+
+.c4 .d:hover {
+	cursor: pointer;
+	transform: translateY(-8px);
+}
+
+.c4 .c4_text {
+	clear: both;
+	float: right;
+	font-size: 24px;
+	margin-top: 58px;
+	margin-right: 66px;
+	text-align: left;
+}
+
+.c4 .c4_cont {
+	display: inline-block;
+	clear: both;
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 21px;
+}
+
+
+.c4 .ss {
+	position: absolute;
+	left: 20px;
+	bottom: -280px;
+}
+
+
+.c4 .hr3 {
+	width: 2px;
+	height: 380px;
+	background-color: #4d4d4d;
+	margin-left: 18px;
+	margin-bottom: 15px;
+}
+
+
+.c4 .ss .arrow {
+	font-size: 30px;
+	color: #4d4d4d;
+	margin-top: -10px;
+}
+
+
+
+.c5 {
+	height: 1130px;
+	margin: 56px 80px;
+	position: relative;
+}
+
+
+.c5 .c5_cont {
+	position: absolute;
+	right: 110px;
+	font-size: 48px;
+	font-weight: bold;
+	top: 50px;
+	z-index: 1;
+}
+
+
+.c5 .block2 {
+	position: absolute;
+	height: 674px;
+	width: 674px;
+	border: solid 5px #4d4d4d;
+	left: 100px;
+	top: 0;
+	z-index: -1;
+}
+
+
+.c5 img {
+	cursor: pointer;
+	transition: 0.2s;
+	clear: both;
+	display: block;
+	width: 78%;
+	margin: 0 auto;
+	padding-top: 122px;
+}
+
+.c5 img:hover {
+	transform: translateY(-8px);
+}
+
+.c6 {
+	background: url(../img/shopping/3.jpg) no-repeat;
+	background-size: cover;
+	height: 450px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.c6 .button3 {
+	transition: 0.2s;
+	display: inline-block;
+	width: 411px;
+	background-color: white;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 82px 0;
+}
+
+.c6 .button3:hover {
+	background-color: black;
+	color: white;
+}

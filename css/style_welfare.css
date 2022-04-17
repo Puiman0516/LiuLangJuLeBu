@@ -1,0 +1,197 @@
+.title{
+	float: right;
+	padding-top: 170px;
+	margin-right: 80px;
+}
+
+.title2{
+	clear: both;
+	float: right;
+	margin-right: 80px;
+}
+
+
+.cont1{
+	clear: both;
+	font-size: 36px;
+	margin-left: 80px;
+}
+
+.cont1 span {
+	font-size: 72px;
+	font-weight: bold;
+}
+
+#map_contain {
+	margin-left: 130px;
+	width: 75%;
+	height: 930px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#map{
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 70px;
+	position: absolute;
+	-webkit-user-drag: none;
+}
+
+#map_cont{
+	clear: both;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 250px;
+	top: 60px;
+}
+
+.circle:hover{
+	cursor: pointer;
+}
+
+.copic {
+	transition: 0.3s;
+	display: none;
+	position: absolute;
+	width: 18%;
+}
+
+.circle{
+	background-color: white;
+	border-radius: 50%;
+	animation: scale 0.5s infinite; /*執行動畫無限次*/
+	animation-direction: alternate; /*轮流反向播放动画*/
+	transform-origin: center;
+	position: absolute;
+}
+
+.circle1{
+	width: 54px;
+	height: 54px;
+}
+
+.circle2{
+	width: 40px;
+	height: 40px;
+}
+
+.circle3{
+	width: 34px;
+	height: 34px;
+}
+
+.circle4{
+	width: 28px;
+	height: 28px;
+}
+
+.circle5{
+	width: 22px;
+	height: 22px;
+}
+
+.circle5{
+	width: 20px;
+	height: 20px;
+}
+
+.circle6{
+	width: 10px;
+	height: 10px;
+}
+
+
+@keyframes scale{
+	0%{
+
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.2);
+	}
+}
+
+
+.cont2{
+	width: 100%;
+	position: relative;
+}
+
+.cont2 .year_part {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 80px;
+	width: 12%;
+}
+
+.year_fixed {
+	position: static;
+}
+
+.ccont2{
+	display: inline-block;
+	width: 82%;
+}
+
+
+.cont2 .year_part, .cont2 .year  {
+	font-size: 84px;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 191px;
+}
+
+.cont2 .act{
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 65px;
+	margin-top: 18px;
+	width: 900px;
+}
+
+
+.cont3 {
+	margin-bottom: 230px;
+}
+
+.cont3 .cont3_cont {
+	transition: 0.2s;
+	display: block;
+	width: 55%;
+	background-color: #cecece;
+	padding: 20px 30px;
+	margin: 0 35% 40px 35%;
+	clear: both;
+}
+
+
+.cont3 .cont3_cont:hover{
+	background-color: #bfbfbf;
+	cursor: pointer;
+	padding-left: 35px;
+	padding-right: 15px;
+}
+
+.cont3 .cont3_cont:active{
+	background-color: #cecece;
+}
+
+
+.cont3 .date, .cont3 .subcont, .cont3 .arrow {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.cont3 .arrow {
+	float: right;
+	font-size: 24px;
+}
+
+.cont3 .subcont {
+	margin-left: 145px;
+}

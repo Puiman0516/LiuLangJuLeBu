@@ -1,0 +1,318 @@
+.biaoti {
+	width: 100%;
+	height: 390px;
+	padding: 155px 76.8px 0 0px;
+}
+
+.biaoti .bt-l {
+	margin: 15px 0 0 76.8px;
+	float: left;
+}
+
+.bt-l .s1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.bt-l .s2 {
+	font-size: 36px;
+}
+
+.biaoti .bt-r {
+	float: right;
+	font-size: 24px;
+	margin: 70px 0;
+}
+
+.biaoti .bt-r span {
+	font-size: 48px;
+	font-weight: 700;
+	margin: 70px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+}
+
+.c3rs {
+	width: 100%;
+	height: 240px;
+	margin-top: 60px;
+	overflow: visible;
+}
+
+.c3rs ul {
+	width: 94%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.c3rs ul li {
+	float: right;
+	/* margin-right:70px ; */
+	padding: 20px 43px;
+	width: 225px;
+	height: 240px;
+	border: 3px black solid;
+	border-radius: 45px;
+	list-style: none;
+	background-color: #edebec;
+}
+
+li[class^=xuanxiang] {
+	animation-name: example2;
+	animation-duration: 0.75s;
+	animation-timing-function: cubic-bezier(.24, .26, .2, 1);
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+@keyframes example1 {
+	0%,100% {
+		filter:invert(100%);
+	}
+	0% {
+		position: relative;
+		bottom: 0px;
+	}
+
+	50% {
+		position: relative;
+		bottom: 20px;
+	}
+
+	100% {
+		position: relative;
+		bottom: 0px;
+	}
+}
+
+.c3rs ul li:first-child {
+	margin-right: 0;
+}
+
+.c3rs0 {
+	margin-bottom: 8px;
+	width: 80px;
+	height: 80px;
+	margin: 10px 0 0 30px;
+	/* background-color: pink; */
+}
+
+.c3rs0 a {
+	width: 140px;
+}
+
+.c3r0 img {
+	width: 100%;
+}
+
+.c3rs1 {
+	font: normal 700 42px "microsoft yahei";
+	margin-top: 5px;
+}
+
+.c3rs3 {
+	margin: 17px 0 0 25px;
+	width: 80px;
+	height: 60px;
+	font-size: 20px;
+}
+
+.c3rs3 a {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+form span {
+	float: left;
+	margin-left: 25%;
+}
+
+form {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.form .radio_part {
+	clear: both;
+}
+
+.radio_subpart {
+	float: left;
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.radio_k {
+	cursor: pointer;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-top: 6px;
+	appearance: none;
+	position: relative;
+}
+
+.radio_k:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	border: 2px solid black;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.radio_k input:checked:before {
+	content: '';
+	width: 33px;
+	height: 33px;
+	border: 3px solid black;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.radio_k:checked:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	background: black;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.radio_kt {
+	cursor: pointer;
+	font-size: 24px;
+	vertical-align: middle;
+	padding-left: 6px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.login {
+	width: 100px;
+	height: 100px;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 563px;
+	top: 140px;
+	z-index: 2;
+}
+
+.button2 {
+	transition: 0.2s;
+	display: block;
+	background-color: black;
+	width: 250px;
+	height: 65px;
+	margin: 0 auto;
+	border-radius: 50px;
+
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	line-height: 65px;
+
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+
+}
+
+.button2:hover {
+	background-color: rgb(100, 100, 100);
+	text-decoration: none;
+	color: white;
+}
+
+.loginimg{
+	margin: 10px -170px;
+	width: 350px;
+	position: absolute;
+}
+
+@keyframes in {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes out {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+.login .tranbg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.login #main {
+	width: 448px;
+	height: 507px;
+	background-color: white;
+	border-radius: 50px;
+	/* text-align: center; */
+	/* padding: 4% 0%; */
+	position: relative;
+	margin: 0 auto;
+	
+	z-index: 3;
+	box-shadow: 0 0 70px 1000px rgba(0, 0, 0, 0.5);
+}
+.shouqian span {
+	position: absolute;
+	font-size: 50px;
+	left: 400px;
+	top: -500px;
+	cursor: pointer;
+}
+.no {
+	position: absolute;
+	top: 116%;
+	z-index: 3;
+	margin-right: 5px;
+	margin-top: -5px;
+	color: white;
+	font-size: 20px;
+}
+.sminfo {
+	position: relative;
+	top: -65%;
+	left: 92%;
+	width: 400px;
+	display: inline-block;
+	font-size: 24px;
+	color: #595757;
+	z-index: 4;
+}

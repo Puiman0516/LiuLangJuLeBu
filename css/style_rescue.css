@@ -1,0 +1,132 @@
+.title, .title2{
+	width: 100%;
+	text-align: center;
+}
+
+.title2 {
+	margin-bottom: 62px;
+}
+
+
+.c1 {
+	margin: 0 80px;
+	height: 170px;
+}
+
+.c1t {
+	color: #606060;
+	font-size: 24px;
+	float: right;
+	width: 50%;
+	line-height: 52px;
+	margin-top: -15px;
+}
+
+.c2 {
+    margin: 56px 80px 125px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.c2 .left, .c2 .right {
+    width: 50%;
+}
+
+
+.c2 .left #dituContent {
+    width: 600px;
+    height: 500px;
+    border: solid 2px black;
+}
+
+/* 引用百度地图API */
+.iw_poi_title {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 13px;
+    white-space: nowrap
+}
+
+.iw_poi_content {
+    font: 12px arial, sans-serif;
+    overflow: visible;
+    padding-top: 4px;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word
+}
+/* 引用结束 */
+
+
+.c2 .right .cont {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f70b0b;
+    margin-left: 15px;
+}
+
+.c2 .right .inputblock {
+    margin-top: 48px;
+    height: 65px;
+    width: 530px;
+}
+
+.c2 .right .inputblock .i1 {
+    clear: both;
+    display: inline-block;
+    width: 95px;
+    height: 65px;
+    background-color: black;
+    border-radius: 65px 0 0 65px;
+    text-align: center;
+    line-height: 65px;
+    float: left;
+    padding-left: 8px;
+}
+
+.c2 .right .inputblock .i2 {
+    transition: 0.3s;
+    display: inline-block;
+    width: 435px;
+    height: 65px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 0 65px 65px 0;
+    
+	padding-left: 21px;
+	outline-style: none;
+	font-size: 16px;
+	color: gray;
+    float: left;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.c2 .right .inputblock .gps {
+    cursor: pointer;
+}
+
+.c2 .right .inputblock .upLoadFile {
+    appearance: none;
+	position: relative;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+.c2 .right .inputblock .upLoadFileText, .c2 .right .inputblock .upLoadFileLabel {
+    position: absolute;
+    cursor: pointer;
+}
+
+.c2 .right .inputblock .justText {
+    width: 530px;
+    border-radius: 65px;
+}
+
+.button1 {
+    margin: 0 auto;
+}
