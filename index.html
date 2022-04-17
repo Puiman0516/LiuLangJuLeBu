@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>流浪俱乐部</title>
+	<link rel="Shortcut Icon" type="image/x-icon" href="img/icon.png" />
+
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/lunbo.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/script_index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style_index.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<a href="index.html" id="logo">
+			<img id="logo_img" src="img/logo.png" />
+		</a>
+		<div class="guide">
+			<div class="head_cont scont">
+				<ul>
+					<li>
+						<a href=""><i class="i-globe"></i><span> 中文</span></a>
+					</li>
+					<li><a href=""><i class="i-phone"></i><span> 联系我们</span></a></li>
+					<li id="loginButtonLi"><a class="loginButton"><i class="i-profile"></i><span> 登录</span></a></li>
+				</ul>
+			</div>
+			<div class="head_cont">
+				<ul>
+					<li><a href="html/adopt.html">领养服务</a></li>
+					<li><a href="html/rescue.html">动物救助</a></li>
+					<li>
+						<a class="sub" href="html/welfare.html">公益专区 ∨</a>
+						<ul class="submenu">
+							<li><a href="html/volunteer.html">申请志愿者</a></li>
+							<li><a href="html/donate.html">捐款</a></li>
+						</ul>
+					</li>
+
+					<li><a href="html/commu.html">交流专区</a></li>
+					<li><a href="html/shopping.html">购物</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="login">
+		<div class="tranbg"></div>
+		<div id="main">
+			<img class="login_logo" src="img/logo2.png" />
+			<img class="close" src="img/login/close.png" />
+			<div class="firstline">
+				<div class="login_button phone normal">手机登录</div>
+				<div style="font-size: 24px; display: inline-block;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</div>
+				<div class="login_button account huadong">账户登录</div>
+			</div>
+			<div class="phone_part">
+				<input class="inputBlock" type="text" name="请输入手机号码" value="请输入手机号码">
+				<div class="code">
+					<input class="inputBlock" type="text" name="请输入短信验证码" value="请输入短信验证码">
+					<div class="getCode">获取验证码</div>
+				</div>
+			</div>
+			<div class="account_part">
+				<input class="inputBlock" type="text" name="Account" value="请输入帐号">
+				<input class="inputBlock password" style="margin: 26px auto 13px auto;" type="text" name="Password"
+					value="请输入密码">
+			</div>
+			<div class="others">
+				<div>其它方式登录</div>
+				<img src="img/login/wechat.png" />
+				<img src="img/login/facebook.png" />
+			</div>
+			<div class="button1 b_login">登录</div>
+			<div class="signUp" onclick="location.href= 'html/signup.html';">
+				没有帐号？点我注册
+			</div>
+		</div>
+	</div>
+
+
+	<div class="carousel">
+
+		<div class="carousel-inner">
+			<div id="item2" class="item">
+				<div class="bg" style="background: url(img/slide/3.jpg) no-repeat; background-size: cover;"></div>
+				<div class="item_contnet">
+					<p class="item_title">请拯救每一只流浪动物！</p>
+					<p class="item_cont">已有2000000只流浪动物通过我们的网站得到救助，关爱流浪动物是我们每个人的责任！</p>
+				</div>
+			</div>
+			<div id="item1" class="item">
+				<div class="bg" style="background: url(img/slide/2.jpg) no-repeat; background-size: cover;"></div>
+				<div class="item_contnet">
+					<p class="item_title">请拯救每一只流浪动物！</p>
+					<p class="item_cont">已有2000000只流浪动物通过我们的网站得到救助，关爱流浪动物是我们每个人的责任！</p>
+				</div>
+			</div>
+			<div id="item0" class="item">
+				<div class="bg" style="background: url(img/slide/1.jpg) no-repeat; background-size: cover;"></div>
+				<div class="item_contnet">
+					<p class="item_title">请拯救每一只流浪动物！</p>
+					<p class="item_cont">已有2000000只流浪动物通过我们的网站得到救助，关爱流浪动物是我们每个人的责任！</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="carousel-control left" data-slide="prev">
+			<span>&lsaquo;</span>
+		</div>
+		<div class="carousel-control right" data-slide="next">
+			<span>&rsaquo;</span>
+		</div>
+
+		<div class="lunbo">
+			<ol>
+				<li index="0" class="active o slideTo"></li>
+				<li index="1" class="passive o slideTo"></li>
+				<li index="2" class="passive o slideTo"></li>
+				<li class="fenge">|</li>
+				<li><a href=" " class="more">更多</a></li>
+			</ol>
+		</div>
+	</div>
+
+
+
+
+	<div class="search">
+		<i class="i-search" style="display: inline-block;"></i>
+		<input type="search" value="请输入内容..." class="search-k">
+	</div>
+
+	<div class="kongbai"></div>
+	<div id="content">
+
+		<div class="content1">
+			<div class="c1-l">
+				<div class="title">
+					消息
+				</div>
+				<div class="title2">
+					News
+				</div>
+			</div>
+			<div class="c1-r">
+				<div class="notice1">
+					<span><a class="normal tongzhi_button">通知公告</a></span>
+					<span>|</span>
+					<span><a class="huadong kepu_button">科普专栏</a></span>
+				</div>
+				<div style="height: 50px;">
+
+				</div>
+				<div class="notice2 no1">
+					<div class="notice21">
+						<div class="square">
+							<span>2021</span>
+							<span>10/20</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/notice2.html'">
+							流浪动物进小区啦!
+						</div>
+						<div class="hot">
+							<span>HOT</span>
+						</div>
+					</div>
+					<div class="notice22">
+						<div class="square">
+							<span>2021</span>
+							<span>11/01</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/404NOTFOUND.html'">
+							十月领养动物公示
+						</div>
+					</div>
+					<div class="notice23">
+						<div class="square">
+							<span>2021</span>
+							<span>11/03</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/notice.html'">
+							第四次领养活动开启及志愿者招募公告
+						</div>
+						<div class="hot">
+							<span>NEW</span>
+						</div>
+					</div>
+					<div class="notice24">
+						<div class="kanmore">
+							<a href="" style="color: black;">查看更多&gt;&gt;</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="notice2 no2">
+					<div class="notice21">
+						<div class="square">
+							<span>2021</span>
+							<span>09/22</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/kepu.html'">
+							路边捡到小奶狗该怎么办?
+						</div>
+						<div class="hot">
+							<span>HOT</span>
+						</div>
+					</div>
+					<div class="notice22">
+						<div class="square">
+							<span>2021</span>
+							<span>09/23</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/404NOTFOUND.html'">
+							狗狗半夜总不睡？
+						</div>
+					</div>
+					<div class="notice23">
+						<div class="square">
+							<span>2021</span>
+							<span>10/05</span>
+						</div>
+						<div class="noticeinfo" onclick="location.href='html/404NOTFOUND.html'">
+							狗狗老了，我们该如何？
+						</div>
+						<div class="hot">
+							<span>HOT</span>
+						</div>
+					</div>
+					<div class="notice24">
+						<div class="kanmore">
+							<a href="" style="color: black;">查看更多&gt;&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="kongbai"></div>
+
+
+
+		<div class="status">
+			<div class="status_cont">
+				<div class="status_left" style="float: left;">
+					<div style="height:80%; padding: 22px; padding-top: 65px; overflow: hidden;">
+						<div class="title">流浪动物<br />现状</div>
+						<div class="title2">STRAY ANIMALS STATUS</div>
+					</div>
+
+					<div class="block" style="background-color: rgb(237,235,236);">
+					</div>
+				</div>
+				<div class="status_center">
+					<div class="status_sub">
+						<div
+							style="width:70px; height: 70px;; border-left: 5px solid white; border-top: 5px solid white; margin-top: 100%;">
+						</div>
+
+						<div class="status_subcontent" style="padding-top:0;">
+							<div class="sub_con1">40%</div>
+							<div class="sub_con2">全球超4亿只流浪猫狗，占整体比重超过五分之二</div>
+						</div>
+					</div>
+				</div>
+				<div class="status_right" style="float: right;">
+					<div class="block" style="background-color: white;"></div>
+
+					<div class="status_sub">
+						<div class="status_subcontent" style="padding-bottom:0;">
+							<div class="sub_con1">20%</div>
+							<div class="sub_con2">中国每年新增流浪动物超5000万，占全球比重的20%</div>
+						</div>
+
+						<div
+							style="width:70px; height: 70px;; border-right: 5px solid white; border-bottom: 5px solid white; float: right;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="kongbai" style="background-color: rgb(237,235,236);"></div>
+
+		<div class="countupp">
+			<div class="upp1">
+				<div class="counter">200000</div>
+				<span>流浪动物</span>
+			</div>
+			<div class="upp2">
+				<div class="counter">10</div>
+				<span>机构</span>
+			</div>
+			<div class="upp3">
+				<div class="counter">34</div>
+				<span style="">省区</span>
+			</div>
+			<div class="upp4">
+				<div class="counter">54</div>
+				<span>城市</span>
+			</div>
+		</div>
+
+
+
+		<div class="kongbai" style="background-color: rgb(237,235,236);"></div>
+
+		<div class="content3">
+			<div class="c3-l">
+				<div class="title">
+					服务
+				</div>
+				<div class="title2">
+					Service
+				</div>
+				<div class="news3">
+					<div class="news31">
+						「流浪俱乐部」
+					</div>
+					<div class="news32">
+						我们希望为流浪动物建设一个平台，提供领养、收容、寻找走失宠物、公益救济等项目，传达友善、平等的理念。
+					</div>
+				</div>
+			</div>
+			<div class="c3-r">
+				<div class="c3rs">
+					<ul>
+						<li style="padding: 10px 54px;">
+							<div class="c3rs0" style="padding: 0 0 0 20px;">
+								<a href="html/welfare.html"><img src="img/icon/icu.png" alt="" style="width: 65px;"></a>
+							</div>
+							<div class="c3rs1"><a href="html/welfare.html" style="color: black;font-size: 25px;">救助站信息</a></div>
+							<div class="c3rs2"><a href="html/welfare.html" style="color: black;">Relief Information</a></div>
+							<div class="c3rs3" style="padding: 0 0 0 3px;">
+								<a href="html/welfare.html"><img src="img/icon/jiantou.png" alt=""></a>
+						</li>
+						<li>
+							<div class="c3rs0">
+								<a href="html/rescue.html"><img src="img/icon/mao.png" alt=""></a>
+							</div>
+							<div class="c3rs1"><a href="html/rescue.html" style="color: black;">动物救助</a></div>
+							<div class="c3rs2"><a href="html/rescue.html" style="color: black;">Pet Rescue</a></div>
+							<div class="c3rs3">
+								<a href="html/rescue.html"><img src="img/icon/jiantou.png" alt=""></a>
+						</li>
+						<li>
+							<div class="c3rs0">
+								<a href="html/adopt.html"><img src="img/icon/gou.png" alt=""></a>
+							</div>
+							<div class="c3rs1"><a href="html/adopt.html" style="color: black;">领养服务</a></div>
+							<div class="c3rs2"><a href="html/adopt.html" style="color: black;">Adopting Service</a></div>
+							<div class="c3rs3">
+								<a href="html/adopt.html"><img src="img/icon/jiantou.png" alt=""></a>
+						</li>
+					</ul>
+				</div>
+				<div class="c3rx">
+					<ul>
+						<li>
+							<div class="c3rs0" style="padding: 0 0 0 20px;">
+								<a href="html/shopping.html"><img src="img/icon/bone.png" alt="" style="width: 65px;"></a>
+							</div>
+							<div class="c3rs1"><a href="html/shopping.html" style="color: black;margin-left: 27px;">购物</a></div>
+							<div class="c3rs2"><a href="html/shopping.html" style="color: black;margin-left: 25px;">Shopping</a>
+							</div>
+							<div class="c3rs3" style="padding: 0 0 0 3px;">
+								<a href="html/shopping.html"><img src="img/icon/jiantou.png" alt=""></a>
+						</li>
+						<li style="padding: 10px 46px;">
+							<div class="c3rs0" style="padding: 2px 0 0 20px;margin: 3px 0 0 0;">
+								<a href="html/commu.html"><img src="img/icon/chat.png" alt="" style="width: 90px;"></a>
+							</div>
+							<div class="c3rs1"><a href="html/commu.html"
+									style="color: black;font-size: 30px;padding: 0 0 0 10px;">交流专区</a></div>
+							<div class="c3rs2"><a href="html/commu.html" style="color: black; font-s">Cummunication Area</a></div>
+							<div class="c3rs3" style="padding: 0 0 0 3px;">
+								<a href="html/commu.html"><img src="img/icon/jiantou.png" alt=""
+										style="padding:0; margin: 0 0 0 8px;"></a>
+						</li>
+						<li>
+							<div class="c3rs0">
+								<a href="html/welfare.html"><img src="img/icon/welfare.png" alt=""></a>
+							</div>
+							<div class="c3rs1"><a href="html/welfare.html" style="color: black;">公益专区</a></div>
+							<div class="c3rs2" style="padding: 0 0 0 20px;"><a href="html/welfare.html" style="color: black;">Welfare
+									Area</a></div>
+							<div class="c3rs3">
+								<a href="html/welfare.html"><img src="img/icon/jiantou.png" alt=""></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="kongbai" style="background-color: rgb(237,235,236);"></div>
+
+
+
+		<div class="about">
+			<div class="about_cont">
+				<div style="float: left;">
+					<div class="title">
+						关于
+					</div>
+					<div class="title2">
+						About
+					</div>
+				</div>
+				<div style="float: right; width:45%; height: 100%;font-size: 25px; text-indent: 2em; line-height: 2;">
+					流浪俱乐部成立于2021年，是一个关注流浪动物处境的公益性网站，旨在引起公众的关注，从而呼吁更多人加入其中，为救助和减少流浪动物献出一份力量。
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer_1">
+			<div class="line"></div>
+			<div class="donate">
+				<a href="html/donate.html" class="button1">捐款</a>
+				<div class="footer_subcont">所有钱款将用于流浪动物救助活动中</div>
+			</div>
+			<div class="beV">
+				<a href="html/volunteer.html" class="button1">申请志愿者</a>
+				<div class="footer_subcont">欢迎您的参与，送更多流浪动物回家</div>
+			</div>
+		</div>
+
+		<div class="footer_2">
+			<div class="footer_share">
+				<img id="1" class="shareButton" src="img/icon/wechat.png" />
+				<img id="2" class="shareButton" src="img/icon/weibo.png" />
+				<img src="img/icon/facebook.png" />
+				<img src="img/icon/twitter.png" />
+				<img src="img/icon/ig.png" />
+				<div class="qrcode">
+					<div class="triangle"></div>
+					<img class="qrcodePic">
+				</div>
+			</div>
+
+			<img class="footer_logo" src="img/logo.png" />
+			<div class="footer_3">
+				<ul>
+					<li><a href="">关于我们</a></li>
+					<li>|</li>
+					<li><a href="">联系我们</a></li>
+					<li>|</li>
+					<li><a href="">加入我们</a></li>
+					<li>|</li>
+					<li><a href="">救助站</a></li>
+					<li>|</li>
+					<li><a href="">商业合作</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+
+
+	<!-- countup -->
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script src="js/jscountup/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jscountup/jquery.countup.min.js"></script>
+	<script type="text/javascript">
+		$('.counter').countUp();
+	</script>
+</body>
+
+</html>
